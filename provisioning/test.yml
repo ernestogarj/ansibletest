@@ -3,4 +3,4 @@
   hosts: all
   tasks: 
    - name: Hello World
-     shell: mkdir /home/consul/prueba   
+     shell: sh /home/consul/script.sh  
