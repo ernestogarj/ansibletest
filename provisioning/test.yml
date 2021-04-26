@@ -1,0 +1,2 @@
+- name: prueba de ansible
+  command: /bin/ls
