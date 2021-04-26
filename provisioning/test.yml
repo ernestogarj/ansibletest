@@ -1,3 +1,6 @@
 ---
-- hosts: all
-  command: ls
+- name: Hello world
+  hosts: all
+  tasks: 
+   - name: Hello World
+     shell: echo "hola mundo"   
