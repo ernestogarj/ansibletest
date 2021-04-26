@@ -1,2 +1,4 @@
-- name: prueba de ansible
-  command: /bin/ls
+---
+- hosts: all
+  sudo: yes
+  command: ls
